@@ -9,4 +9,7 @@ php bin/console server:run
 
 # run requirements checker
 php vendor/bin/requirements-checker
+
+# check routes
+php bin/console debug:router
 ```
