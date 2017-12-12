@@ -12,4 +12,7 @@ php vendor/bin/requirements-checker
 
 # check routes
 php bin/console debug:router
+
+# clear cache
+php bin/console cache:clear
 ```
